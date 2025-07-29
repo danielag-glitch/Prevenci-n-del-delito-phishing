@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Protege tu Identidad Digital: Guía contra el Phishing</title>
+  <style>
+    /* Estilos generales para la página */
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden; /* Oculta el scroll horizontal */
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      color: #4B3621; /* café oscuro */
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #7B4F24; /* café */
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(75, 54, 33, 0.5);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      font-weight: bold;
+    }
+
+    main {
+      flex: 1;
+      padding: 20px;
+      margin: 20px auto;
+      background-color: #fff;
+      box-shadow: 0 0 15px rgba(75, 54, 33, 0.2);
+      border-radius: 10px;
+      max-width: 800px;
+      transition: box-shadow 0.3s;
+    }
+
+    main:hover {
+      box-shadow: 0 0 25px rgba(75, 54, 33, 0.3);
+    }
+
+    /* Estilos para las pestañas */
+    .tab {
+      display: flex;
+      justify-content: space-around;
+      border-bottom: 2px solid #7B4F24; /* café */
+      margin-bottom: 20px;
+    }
+
+    .tab button {
+      flex: 1;
+      background-color: inherit;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 15px 0;
+      transition: background-color 0.3s, color 0.3s;
+      font-size: 18px;
+      text-align: center;
+      border-radius: 5px 5px 0 0;
+      color: #4B3621; /* café oscuro */
+    }
+
+    .tab button:hover {
+      background-color: #5A3812; /* café más oscuro */
+      color: white;
+    }
+
+    .tab button.active {
+      background-color: #7B4F24; /* café */
+      color: white;
+      font-weight: bold;
+    }
+
+    /* Contenido de cada pestaña */
+    .tabcontent {
+      display: none;
+      flex-direction: column;
+      padding: 20px;
+      border-top: none;
+      animation: fadeIn 0.5s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    section h2 {
+      color: #7B4F24; /* café */
+    }
+
+    /* Estilos para el footer */
+    footer {
+      background-color: #7B4F24; /* café */
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      box-shadow: 0 -2px 10px rgba(75, 54, 33, 0.5);
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    /* Estilo de listas */
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    li {
+      background: #e9ecef;
+      margin: 5px 0;
+      padding: 10px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    li:hover {
+      background: #d1c4a5;
+    }
+  </style>
+</head>
+<body>
+
+<header>
